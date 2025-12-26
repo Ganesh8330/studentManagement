@@ -19,6 +19,7 @@ public class DepartmentController {
     private final DepartmentService departmentService;
 
     public DepartmentController(DepartmentService departmentService) {
+        System.err.println("hi");
         this.departmentService = departmentService;
     }
 
